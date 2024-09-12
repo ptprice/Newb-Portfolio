@@ -13,12 +13,19 @@ No dependencies for this project it just uses HTML and CSS
 
 ### Installing
 
-No installation needed just visit the website at 
+No installation needed just visit the website at https://ptprice.github.io/Newb-Portfolio/
 
 ### Executing program
 
 To experience this website just go to the url and feel free to click on any of the my work sections to take you to
-examples of my work
+examples of my work.
+
+Portfolio Website
+![Website](asset/shot_1.png)
+
+Portfolio Website Link
+![WebLink](asset/shot_2.png)
+
 ```
 
 ## Help
