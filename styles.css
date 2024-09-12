@@ -13,26 +13,22 @@ header h1 {
 
 /* Style for the navigation bar */
 .navBar ul {
-  display: flex;                /* Flexbox to align items horizontally */
+  display: flex; /* Flexbox to align items horizontally */
   justify-content: space-around; /* Evenly spaces out the links */
-  list-style-type: none;        /* Removes bullets from the list */
-  padding: 0;                   /* Removes padding */
-  margin: 0;                    /* Removes margin */
-}
-
-.navBar li {
-  /* Flexbox handles the list items, no need to change display here */
+  list-style-type: none; /* Removes bullets from the list */
+  padding: 0; /* Removes padding */
+  margin: 0; /* Removes margin */
 }
 
 .navBar a {
-  display: block;               /* Makes the whole area of each li clickable */
-  color: white;                 /* Text color */
-  text-decoration: none;        /* Removes underline */
-  padding: 10px 20px;           /* Adds padding to the links */
+  display: block; /* Makes the whole area of each li clickable */
+  color: white; /* Text color */
+  text-decoration: none; /* Removes underline */
+  padding: 10px 20px; /* Adds padding to the links */
 }
 
 .navBar a:hover {
-  background-color: navy;       /* Optional hover effect */
+  background-color: navy; /* Optional hover effect */
 }
 
 .subtitle {
@@ -56,6 +52,18 @@ header h1 {
   background-image: url("./asset/photo1.jpg");
 }
 
+.projectMain a,
+.project a {
+  display: block; /* Ensures the link covers the entire block */
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Inherits the text color from the parent element */
+}
+
+.projectMain a:hover,
+.project a:hover {
+  background-color: transparent; /* Or whatever hover effect you'd like */
+}
+
 .projectMain:hover {
   border: 4px solid purple;
 }
@@ -76,7 +84,7 @@ body {
 }
 
 .subProject {
- display : flex;
+  display: flex;
   flex-direction: row;
   column-gap: 15px;
 }
@@ -87,5 +95,4 @@ body {
 
 .project3 {
   background-image: url(./asset/photo3.jpg);
-} 
-
+}
